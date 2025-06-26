@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(191, 166, 119);
+.upper{
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+}
+.card{
+    backdrop-filter: blur(5px);
+    background: transparent;
+    box-shadow: 0 0 10px black;
+    border: 2px solid rgba(255,255,255,.2);
+    
+    color:white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    max-width: 60rem;
+    color: #fff;
+    margin: .5rem auto 0;
+    border-radius: 2rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border:0;
+    outline:0;
+    background: #ebfffc;
+    color: #555;
+    padding: 2rem 1.5rem;
+    height: 2rem;
+    border-radius: 2rem;
+    flex: 1;
+    font-size: 1.5rem;
+}
+.symbol i{
+    cursor: pointer;
+    font-size: 2rem;
+    color: black;
+}
+.weather-icon {
+    width: 10rem;
+    margin-top: 5rem;
+}
+.weather  h1{
+    font-size: 5rem;
+    color: rgb(175, 88, 88);
+}
+.weather h2{
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+.details{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    padding: 2rem 2rem;
+
+}
+.col{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    text-align: left;
+}
+.humidity, .wind{
+    font-size: 2rem;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+.upper{
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color:black;
+}
+.card{  
+    margin: 3.5rem auto 0;
+    width: 350px;
+    color: #fff;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.search input{
+    padding: 1rem 1rem;
+    font-size: 1rem;
+}
+.symbol i{
+    font-size: 2rem;
+    color: black;
+}
+.weather-icon {
+    width:6rem;
+    margin-top: 1rem;
+}
+.search button i{
+    font-size: 1.5rem;
+}
+.weather h2{
+    font-size: 3rem;
+    margin-top: .2rem;
+}
+.details{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 2rem;
+
+}
+.col img{
+    width: 3rem;
+}
+.col{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    text-align: left;
+}
+.humidity,.wind{
+    font-size: .7rem;
+}
+}
