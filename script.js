@@ -4,6 +4,7 @@ const serachBox = document.querySelector(".search input")
 const serachbtn = document.querySelector(".search .symbol")
 const weathericon = document.querySelector(".weather-icon")
 
+
 async function checkWeather(city){
     const response = await fetch(apiUrl + city + `&appid=${apikey}`);
     if(response.status == 404){
@@ -43,6 +44,11 @@ console.log(data)
     
 }
 
+serachBox .addEventListener("keyup", (event)=>{
+    if(event.key == "Enter"){
+        checkWeather(serachBox.value);
+    }
+});
 
 serachbtn.addEventListener("click", ()=>{
     checkWeather(serachBox.value);
